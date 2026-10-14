@@ -14,6 +14,7 @@ main {
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
   padding: 92px 51px 89px;
+  height: 293px;
 }
 
 .header__links-list {
@@ -113,17 +114,15 @@ main {
 }
 
 .aligned-text_center {
-  line-height: 1;
   text-align: center;
 }
 
 .aligned-text_right {
-  line-height: 1;
   text-align: right;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 /* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
