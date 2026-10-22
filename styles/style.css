@@ -58,7 +58,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 240px;
+  max-width: 230px;
   font-style: inherit;
 }
 
@@ -118,10 +118,12 @@ main {
 }
 
 .cover__title-line_center {
+  margin-right: -30px;
   text-align: center;
 }
 
 .cover__title-line_right {
+  margin-right: -30px;
   text-align: right;
 }
 
@@ -139,7 +141,8 @@ main {
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 19.8px;
+  letter-spacing: 0;
+  word-spacing: 0.9em;
 }
 
 .bet-button {
@@ -221,7 +224,6 @@ main {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-
 .card__title {
   position: relative;
   z-index: 1;
@@ -255,6 +257,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
+  margin-top: 140px;
   padding: 0 24px;
 }
 
@@ -296,7 +299,7 @@ main {
 
 .about__text p {
   font-size: 20px;
-  line-height: normal;
+  line-height: 1;
 }
 
 /* Подвал */
@@ -318,7 +321,7 @@ main {
 
 .footer__menu-link {
   font-size: 18px;
-  line-height: normal;
+  line-height: 1;
   text-underline-position: under;
 }
 
@@ -337,4 +340,3 @@ main {
   width: auto;
   height: 48px;
 }
-
