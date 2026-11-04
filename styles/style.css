@@ -63,7 +63,11 @@ main {
 }
 
 .header__address {
+  align-self: start;
   justify-self: end;
+  width: 240px;
+  max-width: none;
+  margin-top: 3px;
 }
 
 .address__item {
@@ -257,7 +261,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  margin-top: 140px;
+  margin-top: 160px;
   padding: 0 24px;
 }
 
@@ -294,12 +298,12 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 }
 
 .about__text p {
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 /* Подвал */
